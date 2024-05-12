@@ -1,0 +1,46 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FerveApp.Domain", "FerveApp.Domain\FerveApp.Domain.csproj", "{F73ED08C-52B6-4B53-A9CA-62881C174E25}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FerveApp.Application", "FerveApp.Application\FerveApp.Application.csproj", "{A9613569-B2CF-4124-AB09-139F15F433F8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FerveApp.Infrastructure", "FerveApp.Infrastructure\FerveApp.Infrastructure.csproj", "{578E98DC-9636-4561-B260-2637B5370680}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FerveApp.Api", "FerveApp.Api\FerveApp.Api.csproj", "{4E5A1329-8838-4F05-8E06-7A7B9A06D9C2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SharedKernel", "SharedKernel\SharedKernel.csproj", "{9A4EC032-E882-4AEB-A1A7-F6B89F3AF23F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F73ED08C-52B6-4B53-A9CA-62881C174E25}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F73ED08C-52B6-4B53-A9CA-62881C174E25}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F73ED08C-52B6-4B53-A9CA-62881C174E25}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F73ED08C-52B6-4B53-A9CA-62881C174E25}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A9613569-B2CF-4124-AB09-139F15F433F8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A9613569-B2CF-4124-AB09-139F15F433F8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A9613569-B2CF-4124-AB09-139F15F433F8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A9613569-B2CF-4124-AB09-139F15F433F8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{578E98DC-9636-4561-B260-2637B5370680}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{578E98DC-9636-4561-B260-2637B5370680}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{578E98DC-9636-4561-B260-2637B5370680}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{578E98DC-9636-4561-B260-2637B5370680}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4E5A1329-8838-4F05-8E06-7A7B9A06D9C2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4E5A1329-8838-4F05-8E06-7A7B9A06D9C2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4E5A1329-8838-4F05-8E06-7A7B9A06D9C2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4E5A1329-8838-4F05-8E06-7A7B9A06D9C2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9A4EC032-E882-4AEB-A1A7-F6B89F3AF23F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9A4EC032-E882-4AEB-A1A7-F6B89F3AF23F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9A4EC032-E882-4AEB-A1A7-F6B89F3AF23F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9A4EC032-E882-4AEB-A1A7-F6B89F3AF23F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
