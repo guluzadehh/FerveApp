@@ -39,22 +39,6 @@ public abstract class ApiController : ControllerBase
         };
     }
 
-    private static ProblemDetails CreateProblemDetails(
-        Error error,
-        Error[]? errors = null)
-    {
-        return new()
-        {
-            Title = GetTitle(error.Type),
-            Type = error.Code,
-            Detail = error.Message,
-            Status = GetStatusCode(error.Type),
-            Extensions = {
-                {"errors", errors}
-            }
-        };
-    }
-
     private static int GetStatusCode(ErrorType errorType) =>
         errorType switch
         {
